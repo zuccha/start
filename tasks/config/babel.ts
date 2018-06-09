@@ -7,11 +7,15 @@ const babelConfigCommon = {
         targets: {
           node: 6
         },
-        modules: false
+        modules: false,
+        exclude: [
+          'transform-async-to-generator'
+        ]
       }
     ]
   ],
   plugins: [
+    'module:fast-async',
     '@babel/plugin-syntax-dynamic-import',
     ['@babel/plugin-transform-runtime', {
       polyfill: false
