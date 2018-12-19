@@ -19,8 +19,8 @@
     "node": ">=8.6.0"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/runtime": "^7.0.0",
+    "@babel/core": "^7.2.2",
+    "@babel/runtime": "^7.2.0",
     "@start/plugin": "^0.2.1"
   }
 }
